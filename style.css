@@ -1,0 +1,20 @@
+.object1{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 200px 20px white
+    ,0 0 200px 1250px black; 
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+    position: absolute;
+    bottom: 10px;
+    
+}
+.object1:hover{
+    background-color: yellow;
+    box-shadow: 0 0 200px 20px white
+    ,0 0 200px 1250px white;
+    translate: 500px -200px;
+
+}
